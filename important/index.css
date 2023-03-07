@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+  padding: 3rem;
+  box-shadow: 10px 1px 1px rgba(218, 172, 172, 0.694);
+}
+
+.card  {
+  box-shadow: 1px 1px 10px rgb(219, 114, 114);
+  padding: 100px;
+  font-size: 32px;
+}
