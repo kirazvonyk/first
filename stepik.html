@@ -21,7 +21,7 @@
       <dl>
         <li><dt>Dostoevsky</dt>
         <dd>Dostoevsky - one of the most famous russian novelist.</dd></li>
-        <li><img src="fyodor.png" height="200" widtn="200" alt="png"></li>
+        <li><img src="fyodor.png" height="200" width="200" alt="png"></li>
       </dl>
   </ul>
 </ol>
@@ -35,7 +35,55 @@
   <p id="season2">Весна́ — одно из четырёх времён года, переходный сезон между зимой и летом. Слово имеет древнюю
     индоевропейскую основу и сродни лит. vasarà — «лето», латыш. pavasaris, др.-инд. vasantás — «весна», vasar — «рано».
   </p>
+  <table>
+    <caption>О литературе</caption>
+    <tr>
+      <th>Русские писатели</th><th>Зарубежные писатели</th>
+    </tr>
+      <tr>
+        <td>Федор Достоевский</td><td>Иоганн Гете</td>
+      </tr>
+      <tr>
+        <td>Лев Толстой</td><td>Данте Альгьери</td>
+      </tr>
+  </table>
+  <input type="color">
+<form>
+  Имя:<br>
+  <input type="text" name="firstname" id="firstname"><br>
+  Фамилия:<br>
+  <input type="text" name="lastname" id="lastname">
+</form>
 <img src="http://web.mindcraft.pro/images/bob.gif" height="200" widtn="200" alt="Боб">
 </body>
 </html>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Интернет-магазин</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Связаться с нами!</h1>
+    <form id="feedback">
+    Фамилия:
+        <br><input type="text" id="lastname"><br>
+    Имя:
+    <br><input type="text" id="firstname"><br>
+    Отчество:
+    <br><input type="text" id="patronymic"><br>
+    Тема сообщения:
+    <select id="topic">
+    <option value="1">Предложение</option>
+    <option value="2">Проблема</option>
+    <option value="3">Жалоба</option>
+    </select>
+    <br><input type="checkbox" id="email"><br>
+        <input type="submit" id="send">
+        <input type="reset" id="clear">
+        
+    </form>
+    
+</body>
+</html> 
