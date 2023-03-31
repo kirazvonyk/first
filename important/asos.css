@@ -1,14 +1,13 @@
-.name {
-  font-family: Serif;
-  font-size: 16px;
-  transform: translate(65px, -65px);
-
-}
-
-.example {
+.image-container {
   position: relative;
+}
+
+.Name {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
 
 }
+
 
 .overlay-text {
   background-color: rgba(255, 255, 255);
@@ -16,9 +15,10 @@
   width: 135px;
   height: 25px;
   text-align: center;
-  position: static;
-  transform: translate(-15px, 0);
-  transform: translate(0, -65px);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
 
 }
 
@@ -35,3 +35,4 @@
 .heart{
   transform: translate(8px, 8px)
 }
+
