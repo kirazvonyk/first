@@ -1,3 +1,2 @@
 TODO:
-  - re-create card, creating separate html & css;
-  - start to learn flexbox
+  - create drop-down element for sizes
